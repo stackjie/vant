@@ -1,4 +1,5 @@
 /* color variables */
+$theme-color: #4bc7fe;
 $black: #000;
 $white: #fff;
 $red: #f44;
@@ -21,8 +22,8 @@ $button-default-color: $text-color;
 $button-default-background-color: $white;
 $button-default-border-color: $gray-light;
 $button-primary-color: $white;
-$button-primary-background-color: #4b0;
-$button-primary-border-color: #0a0;
+$button-primary-background-color: $theme-color;
+$button-primary-border-color: $theme-color;
 $button-danger-color: $white;
 $button-danger-background-color: $red;
 $button-danger-border-color: #e33;
